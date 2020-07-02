@@ -1,7 +1,9 @@
+#Read data from each CSV into variables
 ny = read.csv('new_york_city.csv',na.strings=c("","NA"))
 wash = read.csv('washington.csv',na.strings=c("","NA"))
 chi = read.csv('chicago.csv',na.strings=c("","NA"))
 
+#Import ggplot2 and scales libraries
 library(ggplot2)
 library(scales)
 

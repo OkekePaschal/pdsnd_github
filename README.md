@@ -1,15 +1,15 @@
 ### Date created
-Include the date you created this project and README file.
+Project Created on 2nd July, 2020
 
 ### Project Title
-Replace the Project Title
+Bikeshare Project for Programming for Data Science
 
 ### Description
-Describe what your project is about and what it does
+Programatically derive insights on bike usage from CSV data from three cities 
 
 ### Files used
-Include the files used
+Question1.R, Question2.R, Question3.R, README.md, chicago.csv, new_york_city.csv, washington.csv
 
 ### Credits
-It's important to give proper credit. Add links to any repo that inspired you or blogposts you consulted.
+
 
