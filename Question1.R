@@ -16,9 +16,10 @@ head(chi,100)
 #function to count users in dataset
 user.Count <- function(d)
 {
-  ggplot(aes(x=User.Type), data=subset(d, User.Type != ""))+
+  ggplot(aes(x=User.Type), data=
+    subset(d, User.Type != "")) +
     geom_bar(stat = "count") +
-    labs(x = "User type", y="Count of user type")+
+    labs(x = "User type", y="Count of user type") +
     ggtitle("Bar chart of City User types")
 }
 
